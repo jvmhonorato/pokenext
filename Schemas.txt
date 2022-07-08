@@ -26,3 +26,8 @@ nela importamos o navbar e o footer criamos a tag <main> com o {children dentro}
 14:em seguida importamos Link pra fazer o botão de detaçlhes do pokemons
 
 15: crimaos o Card.module.css e configuramos o estilo do card
+
+16: Criamos pasta pokemons dentro de pages, e dentro dela criamos o arquivo [pokemonid].js inserimos o props {pokemon} como parâmetro 
+e automaticamente o caminho href do <Link> em Card.js vai ser associado a esse componente [pokemonId].js
+
+17:pra manipular a API criamos no componente [pokemonId].js o getStaticPaths() pra pegar o path que é o caminho do da api e renderizar. e o getStaticProps() pra manipular os dados. até aqui no retorno do jsx ele retorna o nome ao clicar em detalhes  
