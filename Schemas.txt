@@ -1,0 +1,16 @@
+1: apagamos dados do css original
+
+2: criamos uma pasta images em public
+
+
+3: apagamos a pasta API pois vamos importa de outro lugar
+4: crimaos em pages a pasta components e dentro dela crimaos navbar, footer e layout
+
+5: configuramos primeiro Navbar.js importamos modulo link e image pra carregr o logo tipo e carregar os links da navbar
+
+7: em seguida criamos layout que será a página container do projeto
+nela importamos o navbar e o footer criamos a tag <main> com o {children dentro} no navbar em cima e footer em baixo  pra depois envolver <Component> no arquivo _app.js que renderiza o projeto com o footer e a navbar fixa 
+
+8:Criar os arquivos module.css, e primeiramene configural globals.css criando height-min de acordo com meu gosto depois configurei o navbar.module.css, e em seguida o Footer.module.css
+
+9: criar em page o About.js e About.module.css em about carregamos o modulo Image e lançamos na página o charizard
