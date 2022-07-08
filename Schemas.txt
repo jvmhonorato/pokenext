@@ -13,4 +13,6 @@ nela importamos o navbar e o footer criamos a tag <main> com o {children dentro}
 
 8:Criar os arquivos module.css, e primeiramene configural globals.css criando height-min de acordo com meu gosto depois configurei o navbar.module.css, e em seguida o Footer.module.css
 
-9: criar em page o About.js e About.module.css em about carregamos o modulo Image e lançamos na página o charizard
+9: criar em page o About.js e About.module.css em about carregamos o modulo Image e lançamos na página o 
+
+10:Chamando os pokemons na API. em index.js criamos uma função async getStaticProps(). no index.js tem os passos da chamda da API
