@@ -16,3 +16,13 @@ nela importamos o navbar e o footer criamos a tag <main> com o {children dentro}
 9: criar em page o About.js e About.module.css em about carregamos o modulo Image e lançamos na página o 
 
 10:Chamando os pokemons na API. em index.js criamos uma função async getStaticProps(). no index.js tem os passos da chamda da API
+
+11: configurando os estilos css importamops o image configuramos o html pra em seguida configura os estilos em Home.module.css
+
+12:em components crimaos o componente Card.js nele usamos react puro construímos um props depois importamos no index.js e inserimos dentro da função map o key om o id e no props do componente Card.js
+
+13:depois em Card.js importamo um Image e na src digitamos a url de uma api pra baixar as imagem dos pokemons
+
+14:em seguida importamos Link pra fazer o botão de detaçlhes do pokemons
+
+15: crimaos o Card.module.css e configuramos o estilo do card
