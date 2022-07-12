@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import styles from '../../styles/Pokemon.module.css'
+
 export const getStaticPaths = async() => {
   //buscar dados na API
   const maxPokemons = 251
@@ -37,8 +40,39 @@ export const getStaticProps = async(context) => {
 
 export default function Pokemon ({pokemon}) {
     return (
-        <>
-         <p>{pokemon.name}</p>
-        </>
+        <div className={styles.pokemon_container}>
+         <h1 className={styles.pokemon_title}>{pokemon.name}</h1>
+         <Image src={`http://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`}
+             width='200' 
+             height='200' 
+             alt={pokemon.name}
+              />
+              <div>
+                <h3>Numero:</h3>
+                <p>#{pokemon.id}</p>
+              </div>
+              <div>
+                <h3>Tipo:</h3>
+                <div className={styles.types_container}>
+                  {pokemon.types.map((item, index) =>(
+                    <spam 
+                    key={index} 
+                    className={`${styles.type} ${styles['type_' + item.type.name]}`}>{item.type.name}
+                    </spam>
+                  ))}
+                </div>
+              </div>
+              <div className={styles.data_container}>
+                <div className={styles.data_height}>
+                  <h4>Altura:</h4>
+                  <p>{pokemon.height * 10} Cm</p>
+                </div>
+                <div className={styles.data_weight} >
+                  <h4>Peso:</h4>
+                  <p>{pokemon.weight / 10} Kg</p>
+                </div>
+
+              </div>
+        </div>
     )
 }

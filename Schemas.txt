@@ -6,7 +6,7 @@
 3: apagamos a pasta API pois vamos importa de outro lugar
 4: crimaos em pages a pasta components e dentro dela crimaos navbar, footer e layout
 
-5: configuramos primeiro Navbar.js importamos modulo link e image pra carregr o logo tipo e carregar os links da navbar
+5: configuramos primeiro Navbar.js importamos modulo link e image pra carregar o logo tipo e carregar os links da navbar
 
 7: em seguida criamos layout que será a página container do projeto
 nela importamos o navbar e o footer criamos a tag <main> com o {children dentro} no navbar em cima e footer em baixo  pra depois envolver <Component> no arquivo _app.js que renderiza o projeto com o footer e a navbar fixa 
@@ -15,11 +15,11 @@ nela importamos o navbar e o footer criamos a tag <main> com o {children dentro}
 
 9: criar em page o About.js e About.module.css em about carregamos o modulo Image e lançamos na página o 
 
-10:Chamando os pokemons na API. em index.js criamos uma função async getStaticProps(). no index.js tem os passos da chamda da API
+10:Chamando os pokemons na API. em index.js criamos uma função async getStaticProps(). no index.js tem os passos da chamada da API
 
 11: configurando os estilos css importamops o image configuramos o html pra em seguida configura os estilos em Home.module.css
 
-12:em components crimaos o componente Card.js nele usamos react puro construímos um props depois importamos no index.js e inserimos dentro da função map o key om o id e no props do componente Card.js
+12:em components criamos o componente Card.js nele usamos react puro construímos um props depois importamos no index.js e inserimos dentro da função map o key om o id e no props do componente Card.js
 
 13:depois em Card.js importamo um Image e na src digitamos a url de uma api pra baixar as imagem dos pokemons
 
@@ -30,4 +30,14 @@ nela importamos o navbar e o footer criamos a tag <main> com o {children dentro}
 16: Criamos pasta pokemons dentro de pages, e dentro dela criamos o arquivo [pokemonid].js inserimos o props {pokemon} como parâmetro 
 e automaticamente o caminho href do <Link> em Card.js vai ser associado a esse componente [pokemonId].js
 
-17:pra manipular a API criamos no componente [pokemonId].js o getStaticPaths() pra pegar o path que é o caminho do da api e renderizar. e o getStaticProps() pra manipular os dados. até aqui no retorno do jsx ele retorna o nome ao clicar em detalhes  
+17:pra manipular a API criamos no componente [pokemonId].js o getStaticPaths() pra pegar o path que é o caminho do da api e renderizar. e o getStaticProps() pra manipular os dados. até aqui no retorno do jsx ele retorna o nome ao clicar em detalhes 
+
+18: em [pokemonId].js no return nos inserimos uma <div> e um <h1> com {pokemon.id} dentro importamos tamvem o modulo image pra pra poder carregalo cada pokemon com sua imagem com src da API com width e height de 200
+
+19: crimaos um types.map pra poder pegar o tipo do pokeon ou os tipos 
+
+20 uma coisa nova pra se aprender é as classe dinâmicax usadas no projeto na parte de estilos do tipo do pokemon que é:<spam 
+                    key={index} 
+                    className={`${styles.type} ${styles['type_' + item.type.name]}`}>{item.type.name}
+                    </spam>
+21: 
