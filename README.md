@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## PokeNEXT
+Go back to the 90's
+Enjoy It and I hope you can learn a lot!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Technology 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Here are the technologies used in this project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* Next JS
+* React JS
+* TailwindCSS
 
-## Learn More
+## Services Used
 
-To learn more about Next.js, take a look at the following resources:
+* Github
+* Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Getting started
 
-## Deploy on Vercel
+* Dependency
+  - Babel 
+  - Eslint
+  
+* To install the dependencies.
+  - npm install
+  
+* To run the project.
+  - npm start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How to use
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 1 - When you access, you will see the main page with all pokemons  <3
+
+![pokenext1](https://user-images.githubusercontent.com/101150943/205422145-ae39da70-3edc-46c7-9e16-7f62db5d5f40.jpg)
+
+
+### 2 - You can also see a lot of information clicking on each of the pokemons.
+
+![pokenext2](https://user-images.githubusercontent.com/101150943/205422325-e480c885-08ef-4ff8-b38d-3ed792720f25.jpg)
+
+### 3 - See in operation
+
+https://user-images.githubusercontent.com/101150943/205422650-28ca4108-8e8d-4bf1-a132-cfb507c9036b.mp4
+
+
+
+
+## Features
+
+The main features of the application are:
+ - Publish Posts.
+ - Learn a lot of information <3
+
+
+## Links
+  - Deploy on Vercel: https://pokedex-flame-eight.vercel.app/
+  - Repository: https://github.com/vituhonorato/pokenext
+    - In case of sensitive bugs like security vulnerabilities, please contact
+      vituhonorato.89@gmail.com directly instead of using issue tracker. We value your effort
+      to improve the security and privacy of this project!
+
+  ## Versioning
+
+  1.0.0.0
+
+
+  ## Authors
+
+  * **JVMH** 
+
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
