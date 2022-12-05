@@ -53,8 +53,8 @@ https://user-images.githubusercontent.com/101150943/205422650-28ca4108-8e8d-4bf1
 ## Features
 
 The main features of the application are:
- - Publish Posts.
- - Learn a lot of information <3
+ - Show all pokemons
+ - Show Pokemons status
 
 
 ## Links
