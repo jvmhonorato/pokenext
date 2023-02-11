@@ -27,10 +27,16 @@ Here are the technologies used in this project.
   - Eslint
   
 * To install the dependencies.
-  - npm install
+```bash
+  $ npm install
+  ```
+  
   
 * To run the project.
-  - npm start
+```bash
+  $ npm start
+  ```
+  
 
 ## How to use
 
